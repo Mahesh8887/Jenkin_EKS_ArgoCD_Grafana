@@ -12,7 +12,7 @@ public class StartApplication {
 
     @GetMapping("/")
     public String index(final Model model) {
-        model.addAttribute("title", "This application is deployed on to EKS using Argocd and Monitering using Grafana|Prometheus");
+        model.addAttribute("title", "This application is deployed on to EKS using Argocd and Monitering using Grafana|Prometheus dated 18-06-2022");
         model.addAttribute("msg", "This application is deployed on to Kubernetes using Argo CD");
         return "index";
     }
